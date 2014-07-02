@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.2
+// @version             1.0.3
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -211,7 +211,7 @@ window.WME_Validator_Czech_Republic = {
   "report.thanks.en": "Thank you for using WME Validator!",
   "report.thanks": "Děkujeme, že používáte WME Validátor!",
   "msg.limit.segments.en": "There are too many segments.\n\nClick 'Show report' to review the report, then\n",
-  "msg.limit.segments": "Je tady příliš mnoho segmentů.\n\nKlikněte na 'Ukázat report' pro obnovení hlášení, pak\n",
+  "msg.limit.segments": "Je tady příliš mnoho segmentů.\n\nKlikněte na 'Ukázat hlášení' pro obnovení hlášení, pak\n",
   "msg.limit.segments.continue.en": "click '▶' (Play) to continue.",
   "msg.limit.segments.continue": "klikněte na '▶' (Spustit) pro pokračování.",
   "msg.limit.segments.clear.en": "click '✘' (Clear) to clear the report.",
@@ -295,13 +295,13 @@ window.WME_Validator_Czech_Republic = {
   "filter.duplicates.tip.en": "Do not show the same segment in different\nparts of report\n* Note: this option DOES NOT affect highlighting",
   "filter.duplicates.tip": "Nezobrazovat stejné segmenty v různých\nčástech hlášení\n* Poznámka: tato volba NEOVLIVNÍ zvýraznění",
   "filter.streets.text.en": "Exclude <b>Streets and Service Roads</b>",
-  "filter.streets.text": "Vyloučit <b>Ulice a oblužné komunikace</b>",
+  "filter.streets.text": "Vyloučit <b>ulice a oblužné komunikace</b>",
   "filter.streets.tip.en": "Do not report Streets and Service Roads",
   "filter.streets.tip": "Nehlásit ulice a obslužné komunikace",
   "filter.other.text.en": "Exclude <b>Other drivable and Non-drivable</b>",
   "filter.other.text": "Vyloučit <b>další sjízdné a nesjízdné</b>",
   "filter.other.tip.en": "Do not report Dirt, Parking Lot, Private Roads\nand non-drivable segments",
-  "filter.other.tip": "Nehlásit lesní/polní cesty, uličky na parkovišti, soukromé cesty\na nesjízdné segmenty",
+  "filter.other.tip": "Nehlásit lesní/polní cesty, uličky na parkovišti,\nsoukromé cesty a nesjízdné segmenty",
   "filter.notes.text.en": "Exclude <b>notes</b>",
   "filter.notes.text": "Vyloučit <b>poznámky</b>",
   "filter.notes.tip.en": "Report only warnings and errors",
@@ -319,7 +319,7 @@ window.WME_Validator_Czech_Republic = {
   "search.updatedsince.text.en": "<b>Updated since:</b>",
   "search.updatedsince.text": "<b>Aktualizováno od:</b>",
   "search.updatedsince.tip.en": "Include only segments edited since the date specified\nFirefox date format: YYYY-MM-DD",
-  "search.updatedsince.tip": "Zahrnout pouze segmenty upravené od určitého data\nFirefox ve formátu: YYYY-MM-DD",
+  "search.updatedsince.tip": "Zahrnout pouze segmenty upravené od určitého data",
   "search.updatedsince.example.en": "YYYY-MM-DD",
   "search.updatedsince.example": "YYYY-MM-DD",
   "search.city.text.en": "<b>City name:</b>",
@@ -341,7 +341,7 @@ window.WME_Validator_Czech_Republic = {
   "button.scan.tip.en": "Start scanning current map area\n* Note: this might take few minutes",
   "button.scan.tip": "Začít skenovat aktuální oblast mapy\n* Poznámka: může to zabrat pár minut",
   "button.scan.tip.NA.en": "Zoom out to start scanning current map area",
-  "button.scan.tip.NA": "Pro spuštění skenu oblasti oddalte mapu",
+  "button.scan.tip.NA": "Pro spuštění kontroly oblasti oddalte mapu",
   "button.pause.tip.en": "Pause scanning",
   "button.pause.tip": "Pozastavit skenování",
   "button.continue.tip.en": "Continue scanning the map area",
@@ -353,7 +353,7 @@ window.WME_Validator_Czech_Republic = {
   "button.clear.tip.red.en": "There are too many reported segments:\n 1. Click 'Show report' to generate the report.\n 2. Click this button to clear the report and start over.",
   "button.clear.tip.red": "Je tady příliš mnoho nahlášených segmentů:\n 1. Klikněte na 'Ukázat hlášení' pro vytvoření hlášení.\n 2. Klikněte na toto tlačítko, abyste vyčistili hlášení a začali znovu.",
   "button.report.text.en": "Show report",
-  "button.report.text": "Ukázat report",
+  "button.report.text": "Ukázat hlášení",
   "button.report.tip.en": "Apply the filter and generate HTML report in a new tab",
   "button.report.tip": "Použít filtr a generovat HTML hlášení v nové záložce",
   "button.BBreport.tip.en": "Share the report on Waze forum or in a private message",
