@@ -6,6 +6,7 @@
 // @match               https://www.waze.com/*editor/*
 // @grant               none
 // @run-at              document-start
+// @namespace           https://greasyfork.org/users/3173
 // ==/UserScript==
 //
 /*
@@ -168,9 +169,9 @@ window.WME_Validator_Czech_Republic = {
   "report.filter.duplicate.en": "duplicate segments",
   "report.filter.duplicate": "duplikované segmenty",
   "report.filter.streets.en": "Streets and Service Roads",
-  "report.filter.streets": "Ulice a obslužné komunikace",
+  "report.filter.streets": "ulice a obslužné komunikace",
   "report.filter.other.en": "Other drivable and Non-drivable",
-  "report.filter.other": "Ostatní sjízdné a nesjízdné",
+  "report.filter.other": "ostatní sjízdné a nesjízdné",
   "report.filter.noneditable.en": "non-editable segments",
   "report.filter.noneditable": "needitovatelné segmenty",
   "report.filter.notes.en": "notes",
@@ -607,13 +608,13 @@ window.WME_Validator_Czech_Republic = {
   "45.solution.en": "Select an adjacent segment and enable at least one turn to the segment",
   "45.solution": "Vyberte sousední segment a povolte alespoň jedno odbočení do segmentu",
   "46.title.en": "Node A: No inward connectivity of drivable road (slow)",
-  "46.title": "Uzel A: Žádný směr vjezdu do sjízdného segmentu",
+  "46.title": "Uzel A: Žádný směr vjezdu",
   "46.problem.en": "The drivable non-private segment has no single inward turn enabled at node A",
   "46.problem": "Na sjízdný segment nelze v uzlu A najet ze žádného směru",
   "46.solution.en": "Select an adjacent segment and enable at least one turn to the segment at node A",
   "46.solution": "Vyberte sousední segment a povolte alespoň jedno odbočení do segmentu v uzlu A",
   "47.title.en": "Node B: No inward connectivity of drivable road (slow)",
-  "47.title": "Uzel B: Žádný směr vjezdu do sjízdného segmentu",
+  "47.title": "Uzel B: Žádný směr vjezdu",
   "47.problem.en": "The drivable non-private segment has no single inward turn enabled at node B",
   "47.problem": "Na sjízdný segment nelze v uzlu B najet ze žádného směru",
   "47.solution.en": "Select an adjacent segment and enable at least one turn to the segment at node B",
@@ -682,13 +683,13 @@ window.WME_Validator_Czech_Republic = {
   "101.solution.en": "If the construction is done, restore the segment connectivity and remove the suffix",
   "101.solution": "Pokud stavba skončila, obnovte připojení segmentu a odstraňte označení stavby",
   "102.title.en": "Node A: No outward connectivity of drivable road (slow)",
-  "102.title": "Uzel A: Žádný směr výjezdu ze sjízdného segmentu",
+  "102.title": "Uzel A: Žádný směr výjezdu",
   "102.problem.en": "The drivable segment has no single outward turn enabled at node A",
   "102.problem": "Sjízdný segment nelze v uzlu A opustit žádným směrem",
   "102.solution.en": "Enable at least one outward turn from the segment at node A",
   "102.solution": "Povolte v uzlu A alespoň jedno odbočení ze segmentu ven",
   "103.title.en": "Node B: No outward connectivity of drivable road (slow)",
-  "103.title": "Uzel B: Žádný směr výjezdu ze sjízdného segmentu",
+  "103.title": "Uzel B: Žádný směr výjezdu",
   "103.problem.en": "The drivable segment has no single outward turn enabled at node B",
   "103.problem": "Sjízdný segment nelze v uzlu B opustit žádným směrem",
   "103.solution.en": "Enable at least one outward turn from the segment at node B",
