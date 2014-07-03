@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.3
+// @version             1.0.4
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -217,7 +217,7 @@ window.WME_Validator_Czech_Republic = {
   "msg.limit.segments.clear.en": "click '✘' (Clear) to clear the report.",
   "msg.limit.segments.clear": "klikněte na '✘' (Vyčistit) pro vyčištění hlášení.",
   "msg.pan.text.en": "Pan around to validate the map",
-  "msg.pan.text": "Pohybujte se nad mapou pro zkontrolování mapy",
+  "msg.pan.text": "Pohybujte se nad mapou pro provedení kontroly",
   "msg.zoomout.text.en": "Zoom out to start WME Validator",
   "msg.zoomout.text": "Pro spuštění WME Validátoru oddalte pohled na mapu",
   "msg.click.text.en": "Click '▶' (Play) to validate visible map area",
@@ -714,7 +714,7 @@ window.WME_Validator_Czech_Republic = {
   "107.solution.en": "Drag the node A to the nearby segment so that it touches or move it a bit further away",
   "107.solution": "Přetáhněte uzel A na nejbližší segment tak, aby se dotýkaly nebo je posuňte kousek dále od sebe",
   "108.title.en": "Node B: No connection (slow)",
-  "108.title": "Uzel A: Nespojené cesty",
+  "108.title": "Uzel B: Nespojené cesty",
   "108.problem.en": "The node B of the drivable segment is within 5m from another drivable segment but not connected by a junction",
   "108.problem": "Uzel B sjízdného segmentu je méně než 5 m od jiné sjízdného segmentu, ale není spojen křižovatkou",
   "108.solution.en": "Drag the node B to the nearby segment so that it touches or move it a bit further away",
