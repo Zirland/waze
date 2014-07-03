@@ -574,7 +574,7 @@ window.WME_Validator_Czech_Republic = {
   "39.title.en": "Expired turn restriction (slow)",
   "39.title": "Omezení odbočení vypršelo",
   "39.problem.en": "The segment has a turn with an expired restriction",
-  "39.problem": "Odbočení ze segment má omezení, jehož platnost již skončila",
+  "39.problem": "Odbočení ze segmentu má omezení, jehož platnost již skončila",
   "39.solution.en": "Click clock icon next to the yellow arrow and delete the expired restriction",
   "39.solution": "Klikněte na ikonu hodin vedle žluté šipky a zrušte neplatné omezení",
   "41.title.en": "Node A: Reverse connectivity of drivable road",
@@ -795,7 +795,7 @@ window.WME_Validator_Czech_Republic = {
   "129.solution": "Vyřešit problém",
   "150.enabled": true,
   "150.params": {
-    "n": 2
+    "n": 4
   },
   "150.problemLink": "F:t=64980&p=572847#p572847",
   "150.title.en": "No lock on Freeway",
@@ -809,7 +809,7 @@ window.WME_Validator_Czech_Republic = {
     "n": 4
   },
   "151.problemLink": "F:t=64980&p=572847#p572847",
-  "151.title.en": "No lock on silnici I. třídy",
+  "151.title.en": "No lock on Major Highway",
   "151.title": "Chybějící zámek na silnici I. třídy",
   "151.problem.en": "The Major Highway segment should be locked at least to Lvl ${n}",
   "151.problem": "Silnice I. třídy by měla být uzamčena alespoň na úroveň ${n}",
@@ -826,6 +826,28 @@ window.WME_Validator_Czech_Republic = {
   "152.problem": "Silnice II. třídy by měla být uzamčena alespoň na úroveň ${n}",
   "152.solution.en": "Lock the segment",
   "152.solution": "Uzamkněte segment",
+  "153.enabled": true,
+  "153.params": {
+    "n": 4
+  },
+  "153.problemLink": "F:t=64980&p=572847#p572847",
+  "153.title.en": "No lock on Ramp",
+  "153.title": "Chybějící zámek na rampě",
+  "153.problem.en": "The Ramp segment should be locked at least to Lvl ${n}",
+  "153.problem": "Segment rampy by měl být uzamčen alespoň na úroveň ${n}",
+  "153.solution.en": "Lock the segment",
+  "153.solution": "Uzamkněte segment",
+  "154.enabled": true,
+  "154.params": {
+    "n": 2
+  },
+  "154.problemLink": "F:t=64980&p=572847#p572847",
+  "154.title.en": "No lock on Primary Road",
+  "154.title": "Chybějící zámek na silnici III. třídy",
+  "154.problem.en": "The Primary Road segment should be locked at least to Lvl ${n}",
+  "154.problem": "Silnice III. třídy by měla být uzamčena alespoň na úroveň ${n}",
+  "154.solution.en": "Lock the segment",
+  "154.solution": "Uzamkněte segment",
   "170.enabled": true,
   "170.params": {
     "regexp": "/^(?!(náměstí|nám\\.|nábřeží|nábř\\.|třída|tř\\.|tunel|most|ulice|ul\\.|sídl\\.|sídliště|park|sad|sady|gen\\.|plk\\.|pplk\\.|mjr\\.|kpt\\.|por\\.) [^a-z])[a-z]/"
@@ -854,6 +876,9 @@ window.WME_Validator_Czech_Republic = {
   "175.problem": "Ulice má v názvu pouze mezeru nebo tečku",
   "175.solution.en": "In the address properties check the 'None' box next to the street name, click 'Apply' OR set a proper street name",
   "175.solution": "V nastavení adresy zaškrtněte 'Nic' vedle názvu, klikněte na 'Potvrdit' NEBO nastavte správný název ulice",
+  "190.params": {
+  "regexp": "/^[a-z]/",
+  },
   "190.title.en": "Lowercase city name",
   "190.title": "Název města malým",
   "190.problem.en": "The city name starts with a lowercase letter",
