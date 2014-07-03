@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.7
+// @version             1.0.7a
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -837,7 +837,7 @@ window.WME_Validator_Czech_Republic = {
   "153.problem": "Segment rampy by měl být uzamčen alespoň na úroveň ${n}",
   "153.solution.en": "Lock the segment",
   "153.solution": "Uzamkněte segment",
-  "154.enabled": true,
+  "154.enabled": false,
   "154.params": {
     "n": 2
   },
