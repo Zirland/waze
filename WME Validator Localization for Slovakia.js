@@ -42,7 +42,7 @@ window.WME_Validator_Slovakia = {
   ".codeISO": "SK",
   ".author": "ChoseS",
   ".updated": "2014-07-03",
-  ".link": "TODO: ",
+  ".link": "https://greasyfork.org/scripts/2990-wme-validator-localization-for-slovakia",
   ".lng": "SK",
   "city.consider.en": "consider this city name:",
   "city.consider": "zváž tento názov mesta:",
