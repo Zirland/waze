@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.5
+// @version             1.0.6
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -42,7 +42,7 @@ window.WME_Validator_Czech_Republic = {
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland",
   ".updated": "2014-07-03",
-  ".link": "TODO: ",
+  ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
   "city.consider": "zvažte tento název města:",
@@ -722,7 +722,7 @@ window.WME_Validator_Czech_Republic = {
   "109.title.en": "Too short segment",
   "109.title": "Příliš krátký segment",
   "109.problem.en": "The drivable non-terminal segment is less than ${n}m long so it is hard to see it on the map and it can cause routing problems",
-  "109.problem": "Sjízdný neukončený segment je kratší než ${n}m, takže je těžké ho vidět v mapě a může způsobit problémy v navigaci",
+  "109.problem": "Sjízdný segment je kratší než ${n}m, takže je těžké ho vidět v mapě a může způsobit problémy v navigaci",
   "109.solution.en": "Increase the length, or remove the segment, or join it with one of the adjacent segments",
   "109.solution": "Prodlužte nebo odstraňte segment nebo ho připojte k jednomu ze sousedních segmentů",
   "112.title.en": "Too long Ramp name",
