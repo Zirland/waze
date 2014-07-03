@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.6
+// @version             1.0.7
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
