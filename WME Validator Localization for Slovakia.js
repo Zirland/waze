@@ -6,6 +6,7 @@
 // @match               https://www.waze.com/*editor/*
 // @grant               none
 // @run-at              document-start
+// @namespace           https://greasyfork.org/users/3173
 // ==/UserScript==
 //
 /*
@@ -41,7 +42,7 @@ window.WME_Validator_Slovakia = {
   ".codeISO": "SK",
   ".author": "ChoseS",
   ".updated": "2014-07-06",
-  ".link": "TODO: ",
+  ".link": "https://greasyfork.org/scripts/2990-wme-validator-localization-for-slovakia",
   ".lng": "SK",
   "city.consider.en": "consider this city name:",
   "city.consider": "zváž tento názov mesta:",
@@ -884,4 +885,3 @@ window.WME_Validator_Slovakia = {
   "201.solution.en": "Click the turn indicated with a purple question mark to confirm it. Note: you may need to make the segment 'Two-way' in order to see those turns",
   "201.solution": "Klikni na odbočenie označené fialovým otáznikom pre jeho potvrdenie. Pozn.: možno bude potrebné určiť segment ako obojsmerný pre zobrazenie týchto odbočení"
 };
-
