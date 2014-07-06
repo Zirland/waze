@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.7a
+// @version             1.0.8
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland",
-  ".updated": "2014-07-03",
+  ".updated": "2014-07-06",
   ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -270,10 +270,10 @@ window.WME_Validator_Czech_Republic = {
   "noaccess.text": "<b>Omlouváme se,</b><br>Tady nemůžete použít WME Validátor.<br>Přečtěte si <a target='_blank' href='https://www.waze.com/forum/viewtopic.php?t=76488'>vlákno na fóru</a><br>pro více informací.",
   "noaccess.tip.en": "Please check the forum thread for more information!",
   "noaccess.tip": "Prosím, přečtěte si vlákno ve fóru pro více informací!",
-  "tab.switch.tip.on.en": "Click to switch highlighting on (Shift+W)",
-  "tab.switch.tip.on": "Zapnout zvýraznění (Shift+W)",
-  "tab.switch.tip.off.en": "Click to switch highlighting off (Shift+W)",
-  "tab.switch.tip.off": "Vypnout zvýraznění (Shift+W)",
+  "tab.switch.tip.on.en": "Click to switch highlighting on (Alt+V)",
+  "tab.switch.tip.on": "Zapnout zvýraznění (Alt-V)",
+  "tab.switch.tip.off.en": "Click to switch highlighting off (Alt-V)",
+  "tab.switch.tip.off": "Vypnout zvýraznění (Alt-V)",
   "tab.filter.text.en": "filter",
   "tab.filter.text": "filtr",
   "tab.filter.tip.en": "Options to filter the report and highlighted segments",
@@ -645,6 +645,7 @@ window.WME_Validator_Czech_Republic = {
   "73.problem": "Název ulice je kratší než ${n} znaků a není to dálnice",
   "73.solution.en": "Correct the street name",
   "73.solution": "Opravte název ulice",
+  "77.enabled": true,
   "77.title.en": "Dead-end U-turn",
   "77.title": "Otočení ve slepé ulici",
   "77.problem.en": "The drivable dead-end road has a U-turn enabled",
