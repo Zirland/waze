@@ -271,9 +271,9 @@ window.WME_Validator_Slovakia = {
   "noaccess.tip.en": "Please check the forum thread for more information!",
   "noaccess.tip": "Prosím pozrite si vlákno na fóre pre viac informácií!",
   "tab.switch.tip.on.en": "Click to switch highlighting on (Alt+V)",
-  "tab.switch.tip.on": "Stlač pre zapnutie zvýraznenia (Alt+W)",
+  "tab.switch.tip.on": "Stlač pre zapnutie zvýraznenia (Alt+V)",
   "tab.switch.tip.off.en": "Click to switch highlighting off (Alt+V)",
-  "tab.switch.tip.off": "Stlač pre vypnutie zvýraznenia (Alt+W)",
+  "tab.switch.tip.off": "Stlač pre vypnutie zvýraznenia (Alt+V)",
   "tab.filter.text.en": "filter",
   "tab.filter.text": "filter",
   "tab.filter.tip.en": "Options to filter the report and highlighted segments",
@@ -311,9 +311,9 @@ window.WME_Validator_Slovakia = {
   "search.youredits.tip.en": "Include only segments edited by you",
   "search.youredits.tip": "Zahrnúť len Vami editované segmenty",
   "search.updatedby.text.en": "<b>Updated by*:</b>",
-  "search.updatedby.text": "<b>Aktualizované:</b>",
+  "search.updatedby.text": "<b>Aktualizované*:</b>",
   "search.updatedby.tip.en": "Include only segments updated by the specified editor\n* Note: this option is available for country managers only\nThis field supports:\n - lists: me, otherEditor\n - wildcards: world*\n - negation: !me, *\n* Note: you may use 'me' to match yourself",
-  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\ n Toto pole odporuje: \ n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby zodpovedal sám",
+  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\ n Toto pole odporuje: \ n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby si mohol skontrolovať vlastné úpravy",
   "search.updatedby.example.en": "Example: me",
   "search.updatedby.example": "Napríklad: me",
   "search.updatedsince.text.en": "<b>Updated since:</b>",
@@ -885,3 +885,4 @@ window.WME_Validator_Slovakia = {
   "201.solution.en": "Click the turn indicated with a purple question mark to confirm it. Note: you may need to make the segment 'Two-way' in order to see those turns",
   "201.solution": "Klikni na odbočenie označené fialovým otáznikom pre jeho potvrdenie. Pozn.: možno bude potrebné určiť segment ako obojsmerný pre zobrazenie týchto odbočení"
 };
+
