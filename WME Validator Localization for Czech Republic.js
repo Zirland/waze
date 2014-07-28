@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.8
+// @version             1.0.9
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -794,6 +794,17 @@ window.WME_Validator_Czech_Republic = {
   "129.problem": "Některá z nastavení segmentu souhlasí s uživatelsky definovanými kritérii (viz Nastavení→Vlastní)",
   "129.solution.en": "Solve the issue",
   "129.solution": "Vyřešit problém",
+  "130.enabled": true,
+  "130.params": {
+    "template": "${type}",
+    "regexp": "/^21$/",
+  },
+  "130.title.en": "Don't use Service road type",
+  "130.title": "Typ Obslužná komunikace se nepoužívá",
+  "130.problem.en": "It is forbidden to use Service road type",
+  "130.problem": "Typ Obslužná komunikace je zakázáno používat",
+  "130.solution.en": "Change the road type",
+  "130.solution": "Změň typ cesty",
   "150.enabled": true,
   "150.params": {
     "n": 4
