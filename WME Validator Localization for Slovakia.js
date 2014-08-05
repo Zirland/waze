@@ -36,12 +36,14 @@
     *Note: use D at the beginning of RegExp to enable debugging on JS console.
     *Note: do not forget to escape backslashes in strings, i.e. use "\\" instead of "\".
 */
+Date.now = function() {
+};
 
 window.WME_Validator_Slovakia = {
   ".country": "Slovakia",
   ".codeISO": "SK",
   ".author": "ChoseS",
-  ".updated": "2014-07-06",
+  ".updated": "2014-08-05",
   ".link": "https://greasyfork.org/scripts/2990-wme-validator-localization-for-slovakia",
   ".lng": "SK",
   "city.consider.en": "consider this city name:",
@@ -313,7 +315,7 @@ window.WME_Validator_Slovakia = {
   "search.updatedby.text.en": "<b>Updated by*:</b>",
   "search.updatedby.text": "<b>Aktualizované*:</b>",
   "search.updatedby.tip.en": "Include only segments updated by the specified editor\n* Note: this option is available for country managers only\nThis field supports:\n - lists: me, otherEditor\n - wildcards: world*\n - negation: !me, *\n* Note: you may use 'me' to match yourself",
-  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\ n Toto pole odporuje: \ n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby si mohol skontrolovať vlastné úpravy",
+  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\ n Toto pole podporuje: \ n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby si mohol skontrolovať vlastné úpravy",
   "search.updatedby.example.en": "Example: me",
   "search.updatedby.example": "Napríklad: me",
   "search.updatedsince.text.en": "<b>Updated since:</b>",
@@ -793,6 +795,20 @@ window.WME_Validator_Slovakia = {
   "129.problem": "Niektoré parametre segmentu sú zhodné s užívateľom definovanými kritériami (pozri Nastavenia→Vlastné)",
   "129.solution.en": "Solve the issue",
   "129.solution": "Vyriešiť chybu",
+  "130.enabled": true,
+  "130.params": {
+    "titleEN": "Don't use the type Service road",
+    "problemEN": "It is forbidden to use the type Service road",
+    "solutionEN": "Change the road type",
+    "template": "${type}",
+    "regexp": "/^21$/"
+  },
+  "130.title.en": "Custom check",
+  "130.title": "Typ Obslužná komunikácia nepoužívať!",
+  "130.problem.en": "The segment matched custom conditions",
+  "130.problem": "Typ Obslužná komunikácia je odporúčané nepoužívať. (kategória vraj zanikne)",
+  "130.solution.en": "Solve the issue",
+  "130.solution": "Zmeň typ cesty napr. na: Sreeet, Private, Parkinng alebo Dirt/4x4. Súkromné komunikácie používame na zákaz vjazdu (okrem MHD, taxi a pod) alebo aj prejazd zakázaný",
   "150.enabled": true,
   "150.params": {
     "n": 2
