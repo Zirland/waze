@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Slovakia
-// @version             1.0.2
+// @version             1.0.3
 // @description         This script localizes WME Validator for Slovakia. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -36,8 +36,6 @@
     *Note: use D at the beginning of RegExp to enable debugging on JS console.
     *Note: do not forget to escape backslashes in strings, i.e. use "\\" instead of "\".
 */
-Date.now = function() {
-};
 
 window.WME_Validator_Slovakia = {
   ".country": "Slovakia",
@@ -315,7 +313,7 @@ window.WME_Validator_Slovakia = {
   "search.updatedby.text.en": "<b>Updated by*:</b>",
   "search.updatedby.text": "<b>Aktualizované*:</b>",
   "search.updatedby.tip.en": "Include only segments updated by the specified editor\n* Note: this option is available for country managers only\nThis field supports:\n - lists: me, otherEditor\n - wildcards: world*\n - negation: !me, *\n* Note: you may use 'me' to match yourself",
-  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\ n Toto pole podporuje: \ n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby si mohol skontrolovať vlastné úpravy",
+  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\n Toto pole podporuje: \ n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby si mohol skontrolovať vlastné úpravy",
   "search.updatedby.example.en": "Example: me",
   "search.updatedby.example": "Napríklad: me",
   "search.updatedsince.text.en": "<b>Updated since:</b>",
