@@ -865,7 +865,7 @@ window.WME_Validator_Czech_Republic = {
   "154.solution": "Uzamkněte segment",
   "170.enabled": true,
   "170.params": {
-    "regexp": "/^(?!(náměstí|nám\\.|nábřeží|nábř\\.|třída|tř\\.|tunel|most|ulice|ul\\.|sídl\\.|sídliště|park|sad|sady|gen\\.|plk\\.|pplk\\.|mjr\\.|kpt\\.|por\\.) [^a-z])[a-z]/"
+    "regexp": "/^(?!(náměstí|nám\\.|nábřeží|nábř\\.|třída|tř\\.|tunel|most|ulice|ul\\.|sídl\\.|sídliště|park|sad|sady|gen\\.|plk\\.|pplk\\.|mjr\\.|kpt\\.|por\\.|dr\\.|bratří|bratranců) [^a-z])[a-z]/"
   },
   "170.title.en": "Lowercase street name",
   "170.title": "Název ulice malým písmenem",
