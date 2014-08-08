@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.10
+// @version             1.0.11
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland",
-  ".updated": "2014-07-06",
+  ".updated": "2014-08-08",
   ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -808,6 +808,20 @@ window.WME_Validator_Czech_Republic = {
   "130.problem": "Typ silnice Obslužná komunikace je zastaralý a již se nepoužívá",
   "130.solution.en": "Change the road type",
   "130.solution": "Změňte typ cesty",
+  "131.enabled": true,
+  "131.params": {
+    "titleEN": "Unnamed higher class road",
+    "problemEN": "Freeway, Major, Minor Highway or Primary Street without name (road number)",
+    "solutionEN": "Assign a name to the road",
+    "template": "${type}:${street}:${roundabout}",
+    "regexp": "/^(2|3|6|7)::0$/",
+  },
+  "131.title.en": "Unnamed higher class road",
+  "131.title": "Nepojmenovaná silnice vyšší třídy",
+  "131.problem.en": "Freeway, Major, Minor Highway or Primary Street without name (road number)",
+  "131.problem": "Dálnice, silnice I., II. nebo III. třídy nemá jméno (číslo silnice)",
+  "131.solution.en": "Assign a name to the road",
+  "131.solution": "Pojmenuj silnici",
   "150.enabled": true,
   "150.params": {
     "n": 4
