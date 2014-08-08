@@ -808,7 +808,7 @@ window.WME_Validator_Czech_Republic = {
   "130.problem": "Typ silnice Obslužná komunikace je zastaralý a již se nepoužívá",
   "130.solution.en": "Change the road type",
   "130.solution": "Změňte typ cesty",
-  "131.enabled": true,
+  "131.enabled": false,
   "131.params": {
     "titleEN": "Unnamed higher class road",
     "problemEN": "Freeway, Major, Minor Highway or Primary Street without name (road number)",
