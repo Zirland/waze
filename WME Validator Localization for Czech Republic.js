@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.11
+// @version             1.0.12
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -40,8 +40,8 @@
 window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
-  ".author": "Kebb01, petrjanik, Zirland",
-  ".updated": "2014-08-08",
+  ".author": "Kebb01, petrjanik, Zirland, pvo11",
+  ".updated": "2014-08-19",
   ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -813,8 +813,8 @@ window.WME_Validator_Czech_Republic = {
     "titleEN": "Unnamed higher class road",
     "problemEN": "Freeway, Major, Minor Highway or Primary Street without name (road number)",
     "solutionEN": "Assign a name to the road",
-    "template": "${type}:${street}:${roundabout}",
-    "regexp": "/^(2|3|6|7)::0$/",
+    "template": "${type}:${street}:${roundabout}:${length}",
+    "regexp": "/^(2|3|6|7)::0:([6-9]|[1-5][0-9])[0-9]*$/",
   },
   "131.title.en": "Unnamed higher class road",
   "131.title": "Nepojmenovaná silnice vyšší třídy",
@@ -822,6 +822,48 @@ window.WME_Validator_Czech_Republic = {
   "131.problem": "Dálnice, silnice I., II. nebo III. třídy nemá jméno (číslo silnice)",
   "131.solution.en": "Assign a name to the road",
   "131.solution": "Pojmenuj silnici",
+  "132.enabled": false,
+  "132.params": {
+    "titleEN": "Missing road number",
+    "problemEN": "Road has a name which is not a road number and the road number is not the first alternate name",
+    "solutionEN": "Assign road name as the first alternate name",
+    "template": "${type}:${street}:${altStreet[0]}:${length}",
+    "regexp": "/^(2|3|6|7):.+[^0-9].+:(|.+[^0-9].+|[^D0-9].*):([6-9]|[1-5][0-9])[0-9]*$/",
+  },
+  "132.title.en": "Missing road number",
+  "132.title": "Chybějící číslo silnice",
+  "132.problem.en": "Road has a name which is not a road number and the road number is not the first alternate name",
+  "132.problem": "Silnice má jméno, které není číslem silnice a toto číslo není ani první alternativní jméno",
+  "132.solution.en": "Assign road name as the first alternate name",
+  "132.solution": "Nastav číslo silnice jako první alternatívní jméno",
+  "133.enabled": false,
+  "133.params": {
+    "titleEN": "Alternate name for the road number",
+    "problemEN": "Street name must be always the primary name and the road number the alternate name",
+    "solutionEN": "Switch the primary and alternate name",
+    "template": "${type}:${street}:${altStreet[0]}",
+    "regexp": "/^(2|3|6|7):[D|R]?[0-9]+[a-zA-Z]?:.+$/",
+  },
+  "133.title.en": "Alternate name for the road number",
+  "133.title": "Alternativní jméno k číslu silnice",
+  "133.problem.en": "Street name must be always the primary name and the road number the alternate name",
+  "133.problem": "Jméno ulice musí být vždy primární, číslo silnice první alternativní",
+  "133.solution.en": "Switch the primary and alternate name",
+  "133.solution": "Přehoď primární a alternativní jméno",  
+  "134.enabled": false,
+  "134.params": {
+    "titleEN": "Alternate road name outside of city",
+    "problemEN": "Road out of any city has an alternate name",
+    "solutionEN": "Check if it's OK or delete the alternate name",
+    "template": "${city}:${altStreet[#]}",
+    "regexp": "/^:.+$/",
+  },
+  "134.title.en": "Alternate road name outside of city",
+  "134.title": "Alternativní jméno silnice mimo obec",
+  "134.problem.en": "Road out of any city has an alternate name",
+  "134.problem": "Silnice je mimo obec a má alternativní jméno",
+  "134.solution.en": "Check if it's OK or delete the alternate name",
+  "134.solution": "Zkontroluj, zda je to OK, případně alternativní jméno smaž",
   "150.enabled": true,
   "150.params": {
     "n": 4
