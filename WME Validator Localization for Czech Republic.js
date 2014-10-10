@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.12
+// @version             1.0.13
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland, pvo11",
-  ".updated": "2014-08-19",
+  ".updated": "2014-10-10",
   ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -864,6 +864,20 @@ window.WME_Validator_Czech_Republic = {
   "134.problem": "Silnice je mimo obec a má alternativní jméno",
   "134.solution.en": "Check if it's OK or delete the alternate name",
   "134.solution": "Zkontroluj, zda je to OK, případně alternativní jméno smaž",
+  "135.enabled": true,
+  "135.params": {
+    "titleEN": "Alternate name within city doesn't have city assigned",
+    "problemEN": "Primary name has city assigned but some of alternate name hasn't",
+    "solutionEN": "Assign city to the alternate name; if the street name is a duplicate delete the alternate name without city",
+    "template": "${city}:${altStreet[0]}:#${altCity[#]}#",
+    "regexp": "/^.+:.+:.*##.*/",
+  },
+  "135.title.en": "Alternate name within city doesn't have city assigned",
+  "135.title": "Alternativní název v obci nemá nastavenou obec",
+  "135.problem.en": "Primary name has city assigned but some of alternate name hasn't",
+  "135.problem": "Primární název má nastavené jméno obce, ale některý z alternativních názvů ne",
+  "135.solution.en": "Assign city to the alternate name; if the street name is a duplicate delete the alternate name without city",
+  "135.solution": "Nastav obec do alternativního názvu, pokud je název ulice duplicitní, název bez obce smaž",
   "150.enabled": true,
   "150.params": {
     "n": 4
