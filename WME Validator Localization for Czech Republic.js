@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.0.13
+// @version             1.0.14
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland, pvo11",
-  ".updated": "2014-10-10",
+  ".updated": "2014-11-22",
   ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -796,18 +796,18 @@ window.WME_Validator_Czech_Republic = {
   "129.solution": "Vyřešit problém",
   "130.enabled": true,
   "130.params": {
-    "titleEN": "Don't use the type Service road",
-    "problemEN": "Service road type is deprecated",
-    "solutionEN": "Change the road type",
-    "template": "${type}",
-    "regexp": "/^21$/",
+    "titleEN": "Alternate name without primary",
+    "problemEN": "Segment has an alternate name but not the primary",
+    "solutionEN": "Add primary name to allow deleting the secondary",
+    "template": "${street}:${altStreet[#]}",
+    "regexp": "/^:.+/",
   },
-  "130.title.en": "Don't use Service road type",
-  "130.title": "Typ Obslužná komunikace se nepoužívá",
-  "130.problem.en": "Service road type is deprecated",
-  "130.problem": "Typ silnice Obslužná komunikace je zastaralý a již se nepoužívá",
-  "130.solution.en": "Change the road type",
-  "130.solution": "Změňte typ cesty",
+  "130.title.en": "Alternate name without primary",
+  "130.title": "Alternativní jméno bez primárního",
+  "130.problem.en": "Segment has an alternate name but not the primary",
+  "130.problem": "Segment má alternativní jméno, ale ne primarní",
+  "130.solution.en": "Add primary name to allow deleting the secondary",
+  "130.solution": "Přidej primární jméno, aby šlo alternativní smazat",
   "131.enabled": false,
   "131.params": {
     "titleEN": "Unnamed higher class road",
