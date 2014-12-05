@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Slovakia
-// @version             1.0.3
+// @version             1.1.4
 // @description         This script localizes WME Validator for Slovakia. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Slovakia = {
   ".country": "Slovakia",
   ".codeISO": "SK",
   ".author": "ChoseS",
-  ".updated": "2014-08-05",
+  ".updated": "2014-12-05",
   ".link": "https://greasyfork.org/scripts/2990-wme-validator-localization-for-slovakia",
   ".lng": "SK",
   "city.consider.en": "consider this city name:",
@@ -313,7 +313,7 @@ window.WME_Validator_Slovakia = {
   "search.updatedby.text.en": "<b>Updated by*:</b>",
   "search.updatedby.text": "<b>Aktualizované*:</b>",
   "search.updatedby.tip.en": "Include only segments updated by the specified editor\n* Note: this option is available for country managers only\nThis field supports:\n - lists: me, otherEditor\n - wildcards: world*\n - negation: !me, *\n* Note: you may use 'me' to match yourself",
-  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\n Toto pole podporuje: \ n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby si mohol skontrolovať vlastné úpravy",
+  "search.updatedby.tip": "Zahrňuje len segmenty aktualizované určeným editorom\n* Pozn.: Táto možnosť je k dispozícii iba pre manažérov krajín\n Toto pole podporuje:\n - zoznamy: ja, otherEditor\n - zástupné znaky: svet*\n - negácia: !ja, *\n* Pozn.: môžeš použiť 'me', aby si mohol skontrolovať vlastné úpravy",
   "search.updatedby.example.en": "Example: me",
   "search.updatedby.example": "Napríklad: me",
   "search.updatedsince.text.en": "<b>Updated since:</b>",
@@ -595,18 +595,6 @@ window.WME_Validator_Slovakia = {
   "43.problem": "Segment je pripojený sám k sebe",
   "43.solution.en": "Split the segment into THREE pieces",
   "43.solution": "Rozdeľ segment na TRI časti",
-  "44.title.en": "No outward connectivity",
-  "44.title": "Žiadne vonkajšie pripojenie",
-  "44.problem.en": "The drivable segment has no single outward turn enabled",
-  "44.problem": "Segment nemá žiadne vonkajšie pripojenie",
-  "44.solution.en": "Enable at least one outward turn from the segment",
-  "44.solution": "Povol aspoň jedno odbočenie zo segmentu",
-  "45.title.en": "No inward connectivity",
-  "45.title": "Žiadne vnútorné pripojenie",
-  "45.problem.en": "The drivable non-private segment has no single inward turn enabled",
-  "45.problem": "Verejný segment nemá povolené žiadne odbočenie ",
-  "45.solution.en": "Select an adjacent segment and enable at least one turn to the segment",
-  "45.solution": "Vyber susedný segment a povol aspoň jedno odbočenie na segmente",
   "46.title.en": "Node A: No inward connectivity of drivable road (slow)",
   "46.title": "Uzol A: Neexistuje vnútorné napojenie na prejazdnú komunikáciu",
   "46.problem.en": "The drivable non-private segment has no single inward turn enabled at node A",
@@ -625,12 +613,6 @@ window.WME_Validator_Slovakia = {
   "48.problem": "Kruhový objazd je obojsmerný",
   "48.solution.en": "Redo the roundabout",
   "48.solution": "Uprav kruhový objazd",
-  "50.title.en": "No connectivity on roundabout (slow)",
-  "50.title": "Žiadne pripojenie na kruhový objazd",
-  "50.problem.en": "The drivable roundabout segment has no connectivity with adjacent roundabout segment",
-  "50.problem": "Kruhový objazd nemá pripojenie na priľahlý kruhový objazd",
-  "50.solution.en": "Enable a turn to the adjacent segment or redo the roundabout",
-  "50.solution": "Umožni odbočenie na susedný segment alebo prerob kruhový objazd",
   "52.enabled": true,
   "52.title.en": "Too long street name",
   "52.title": "Príliš dlhý názov ulice",
@@ -645,12 +627,6 @@ window.WME_Validator_Slovakia = {
   "73.problem": "Názov segmentu je kratší ako ${n} znakov a nie je to diaľnica",
   "73.solution.en": "Correct the street name",
   "73.solution": "Oprav názov ulice",
-  "77.title.en": "Dead-end U-turn",
-  "77.title": "Otočenie v jednosmerke",
-  "77.problem.en": "The drivable dead-end road has a U-turn enabled",
-  "77.problem": "Jednosmerná komunikacia má povolené otočenie do protismeru",
-  "77.solution.en": "Disable U-turn",
-  "77.solution": "Zakázať otočenie do protismeru",
   "78.title.en": "Same endpoints drivable segments (slow)",
   "78.title": "Rovnaké koncové body segmentov",
   "78.problem.en": "Two drivable segments share the same two endpoints",
@@ -807,6 +783,38 @@ window.WME_Validator_Slovakia = {
   "130.problem": "Typ Obslužná komunikácia je odporúčané nepoužívať. (kategória vraj zanikne)",
   "130.solution.en": "Solve the issue",
   "130.solution": "Zmeň typ cesty napr. na: Sreeet, Private, Parkinng alebo Dirt/4x4. Súkromné komunikácie používame na zákaz vjazdu (okrem MHD, taxi a pod) alebo aj prejazd zakázaný",
+  "131.enabled": false,
+  "131.params": {
+    "titleEN": "Unnamed higher class road",
+    "problemEN": "Freeway, Major, Minor Highway or Primary Street without name (road number)",
+    "solutionEN": "Assign a name to the road",
+    "template": "${type}:${street}:${roundabout}:${length}",
+    "regexp": "/^(2|3|6|7)::0:([6-9]|[1-5][0-9])[0-9]*$/"
+  },
+  "132.enabled": false,
+  "132.params": {
+    "titleEN": "Missing road number",
+    "problemEN": "Road has a name which is not a road number and the road number is not the first alternate name",
+    "solutionEN": "Assign road name as the first alternate name",
+    "template": "${type}:${street}:${altStreet[0]}:${length}",
+    "regexp": "/^(2|3|6|7):.+[^0-9].+:(|.+[^0-9].+|[^D0-9].*):([6-9]|[1-5][0-9])[0-9]*$/"
+  },
+  "133.enabled": false,
+  "133.params": {
+    "titleEN": "Alternate name for the road number",
+    "problemEN": "Street name must be always the primary name and the road number the alternate name",
+    "solutionEN": "Switch the primary and alternate name",
+    "template": "${type}:${street}:${altStreet[0]}",
+    "regexp": "/^(2|3|6|7):[D|R]?[0-9]+[a-zA-Z]?:.+$/"
+  },
+  "134.enabled": false,
+  "134.params": {
+    "titleEN": "Alternate road name outside of city",
+    "problemEN": "Road out of any city has an alternate name",
+    "solutionEN": "Check if it's OK or delete the alternate name",
+    "template": "${city}:${altStreet[#]}",
+    "regexp": "/^:.+$/"
+  },
   "150.enabled": true,
   "150.params": {
     "n": 2
