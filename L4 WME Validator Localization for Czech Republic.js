@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name                WME Validator Localization for Czech Republic
+// @name                L4 WME Validator Localization for Czech Republic
 // @version             1.1.8
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
@@ -808,7 +808,7 @@ window.WME_Validator_Czech_Republic = {
   "130.problem": "Segment má alternativní jméno, ale ne primarní",
   "130.solution.en": "Add primary name to allow deleting the secondary",
   "130.solution": "Přidej primární jméno, aby šlo alternativní smazat",
-  "131.enabled": false,
+  "131.enabled": true,
   "131.params": {
     "titleEN": "Unnamed higher class road",
     "problemEN": "Freeway, Major, Minor Highway or Primary Street without name (road number)",
@@ -822,7 +822,7 @@ window.WME_Validator_Czech_Republic = {
   "131.problem": "Dálnice, silnice I., II. nebo III. třídy nemá jméno (číslo silnice)",
   "131.solution.en": "Assign a name to the road",
   "131.solution": "Pojmenuj silnici",
-  "132.enabled": false,
+  "132.enabled": true,
   "132.params": {
     "titleEN": "Missing road number",
     "problemEN": "Road has a name which is not a road number and the road number is not the first alternate name",
@@ -836,7 +836,7 @@ window.WME_Validator_Czech_Republic = {
   "132.problem": "Silnice má jméno, které není číslem silnice a toto číslo není ani první alternativní jméno",
   "132.solution.en": "Assign road name as the first alternate name",
   "132.solution": "Nastav číslo silnice jako první alternatívní jméno",
-  "133.enabled": false,
+  "133.enabled": true,
   "133.params": {
     "titleEN": "Alternate name for the road number",
     "problemEN": "Street name must be always the primary name and the road number the alternate name",
@@ -850,7 +850,7 @@ window.WME_Validator_Czech_Republic = {
   "133.problem": "Jméno ulice musí být vždy primární, číslo silnice první alternativní",
   "133.solution.en": "Switch the primary and alternate name",
   "133.solution": "Přehoď primární a alternativní jméno",  
-  "134.enabled": false,
+  "134.enabled": true,
   "134.params": {
     "titleEN": "Alternate road name outside of city",
     "problemEN": "Road out of any city has an alternate name",
