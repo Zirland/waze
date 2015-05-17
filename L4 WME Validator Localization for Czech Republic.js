@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                L4 WME Validator Localization for Czech Republic
-// @version             1.1.9
+// @version             1.1.10
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland, pvo11",
-  ".updated": "2015-03-23",
+  ".updated": "2015-05-17",
   ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -887,7 +887,7 @@ window.WME_Validator_Czech_Republic = {
     "regexp": "/^(1|5|8|10|16|17|20)::.+/",
   },
   "136.title.en": "Named segment outside of a city",
-  "136.title": "Pojmenovaný segment mino obec",
+  "136.title": "Pojmenovaný segment mimo obec",
   "136.problem.en": "Segment has street name but not a city name",
   "136.problem": "Segment má název ulice, ale ne název města",
   "136.solution.en": "Assign a city name or delete the street name",
