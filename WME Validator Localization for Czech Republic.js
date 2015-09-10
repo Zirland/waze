@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.1.10
+// @version             1.1.11
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,8 +41,8 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland, pvo11",
-  ".updated": "2015-05-17",
-  ".link": "https://greasyfork.org/scripts/2972-wme-validator-localization-for-czech-republic",
+  ".updated": "2015-09-10",
+  ".link": "https://greasyfork.org/cs/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
   "city.consider": "zvažte tento název města:",
@@ -949,7 +949,7 @@ window.WME_Validator_Czech_Republic = {
   "154.solution": "Uzamkněte segment",
   "170.enabled": true,
   "170.params": {
-    "regexp": "/^(?!(náměstí|nám\\.|nábřeží|nábř\\.|třída|tř\\.|tunel|most|ulice|ul\\.|sídl\\.|sídliště|park|sad|sady|gen\\.|plk\\.|pplk\\.|mjr\\.|kpt\\.|por\\.|prap\\.|generála|plukovníka|podplukovníka|majora|kapitána|poručíka|praporčíka|dr\\.|bratří|bratranců|promenáda|zahrada|krále|prof.|bří) [^a-z])[a-z]/"
+    "regexp": "/^(?!(náměstí|nám\\.|nábřeží|nábř\\.|třída|tř\\.|tunel|most|ulice|ul\\.|sídl\\.|sídliště|park|sad|sady|gen\\.|plk\\.|pplk\\.|mjr\\.|kpt\\.|por\\.|prap\\.|generála|plukovníka|podplukovníka|majora|kapitána|poručíka|praporčíka|dr\\.|bratří|bratranců|promenáda|zahrada|krále|prof.|bří|alej) [^a-z])[a-z]/"
   },
   "170.title.en": "Lowercase street name",
   "170.title": "Název ulice malým písmenem",
