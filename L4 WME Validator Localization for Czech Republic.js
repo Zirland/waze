@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                L4 WME Validator Localization for Czech Republic
-// @version             1.1.14
+// @version             1.1.15
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland, pvo11",
-  ".updated": "2015-12-09",
+  ".updated": "2015-12-10",
   ".link": "https://greasyfork.org/cs/scripts/8476-l4-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -835,7 +835,7 @@ window.WME_Validator_Czech_Republic = {
   "132.problem.en": "Road has a name which is not a road number and the road number is not the first alternate name",
   "132.problem": "Silnice má jméno, které není číslem silnice a toto číslo není ani první alternativní jméno",
   "132.solution.en": "Assign road name as the first alternate name",
-  "132.solution": "Nastav číslo silnice jako první alternatívní jméno",
+  "132.solution": "Nastav číslo silnice jako první alternativní jméno",
   "133.enabled": true,
   "133.params": {
     "titleEN": "Alternate name for the road number",
@@ -891,7 +891,7 @@ window.WME_Validator_Czech_Republic = {
   "136.problem.en": "Segment has street name but not a city name",
   "136.problem": "Segment má název ulice, ale ne název města",
   "136.solution.en": "Assign a city name or delete the street name",
-  "136.solution": "Nastav obec nebo smaž název",
+  "136.solution": "Nastav obec nebo smaž název města",
   "150.enabled": true,
   "150.params": {
     "n": 4
