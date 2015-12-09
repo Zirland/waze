@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                L4 WME Validator Localization for Czech Republic
-// @version             1.1.13
+// @version             1.1.14
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -842,14 +842,14 @@ window.WME_Validator_Czech_Republic = {
     "problemEN": "Street name must be always the primary name and the road number the alternate name",
     "solutionEN": "Switch the primary and alternate name",
     "template": "${type}:${street}:${altStreet[0]}",
-    "regexp": "/^(2|3|6|7):[D|R]?[0-9]+[a-zA-Z]?:.+$/",
+    "regexp": "/^(2|3|6|7):D?[0-9]+[a-zA-Z]?:.+$/",
   },
   "133.title.en": "Alternate name for the road number",
   "133.title": "Alternativní jméno k číslu silnice",
   "133.problem.en": "Street name must be always the primary name and the road number the alternate name",
   "133.problem": "Jméno ulice musí být vždy primární, číslo silnice první alternativní",
   "133.solution.en": "Switch the primary and alternate name",
-  "133.solution": "Přehoď primární a alternativní jméno",  
+  "133.solution": "Přehoď primární a alternativní jméno",
   "134.enabled": true,
   "134.params": {
     "titleEN": "Alternate road name outside of city",
