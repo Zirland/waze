@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.1.16
+// @version             1.1.17
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -41,7 +41,7 @@ window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
   ".author": "Kebb01, petrjanik, Zirland, pvo11",
-  ".updated": "2015-12-15",
+  ".updated": "2015-12-17",
   ".link": "https://greasyfork.org/cs/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -916,7 +916,7 @@ window.WME_Validator_Czech_Republic = {
   "151.solution": "Uzamkněte segment",
   "152.enabled": true,
   "152.params": {
-    "n": 4
+    "n": 3
   },
   "152.problemLink": "F:t=64980&p=572847#p572847",
   "152.title.en": "No lock on Minor Highway",
@@ -938,7 +938,7 @@ window.WME_Validator_Czech_Republic = {
   "153.solution": "Uzamkněte segment",
   "154.enabled": true,
   "154.params": {
-    "n": 3
+    "n": 2
   },
   "154.problemLink": "F:t=64980&p=572847#p572847",
   "154.title.en": "No lock on Primary Road",
