@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name                WME Validator Localization for Czech Republic
-// @version             1.1.17
+// @version             1.1.18
 // @description         This script localizes WME Validator for Czech Republic. You also need main package (WME Validator) installed.
 // @match               https://editor-beta.waze.com/*editor/*
 // @match               https://www.waze.com/*editor/*
@@ -40,8 +40,8 @@
 window.WME_Validator_Czech_Republic = {
   ".country": "Czech Republic",
   ".codeISO": "CZ",
-  ".author": "Kebb01, petrjanik, Zirland, pvo11",
-  ".updated": "2015-12-17",
+  ".author": "Kebb01, petrjanik, Zirland, pvo11, d2-mac",
+  ".updated": "2015-12-21",
   ".link": "https://greasyfork.org/cs/scripts/2972-wme-validator-localization-for-czech-republic",
   ".lng": "CS",
   "city.consider.en": "consider this city name:",
@@ -695,6 +695,7 @@ window.WME_Validator_Czech_Republic = {
   "103.problem": "Sjízdný segment nelze v uzlu B opustit žádným směrem",
   "103.solution.en": "Enable at least one outward turn from the segment at node B",
   "103.solution": "Povolte v uzlu B alespoň jedno odbočení ze segmentu ven",
+  "104.enabled": true,
   "104.title.en": "Railroad used for comments",
   "104.title": "Železnice použita jako komentář",
   "104.problem.en": "The Railroad segment is probably used as a map comment",
@@ -892,6 +893,55 @@ window.WME_Validator_Czech_Republic = {
   "136.problem": "Segment má název ulice, ale ne název města",
   "136.solution.en": "Assign a city name or delete the street name",
   "136.solution": "Nastav obec nebo smaž název města",
+  "137.enabled": false,
+  "137.severity": "warning",
+  "137.solutionLink": "W:Czech/Co_zakreslit_a_co_ne#.C5.BDeleznice",
+  "137.params": {
+    "titleEN": "Incorrect Railroad Direction",
+    "problemEN": "The direction of the railroad is not correct",
+    "solutionEN": "Change the direction of the segment to Two way (⇆)",
+    "template": "${typeRank}:${direction}",
+    "regexp": "/^2:[^3]/"
+  },    
+  "137.title.en": "Incorrect Railroad Direction",
+  "137.title": "Nesprávný směr železnice",
+  "137.problem.en": "The direction of the railroad is not correct",
+  "137.problem": "Železnice má nastaven nesprávný směr",
+  "137.solution.en": "Change the direction of the segment to Two way (⇆)",
+  "137.solution": "Nastav směr segmentu na obousměrný (⇆)",
+  "138.enabled": false,
+  "138.severity": "warning",
+  "138.solutionLink": "W:Czech/Co_zakreslit_a_co_ne#.C5.BDeleznice",
+  "138.params": {
+    "titleEN": "Incorrect Railroad Lock",
+    "problemEN": "The  Railroad Lock is not locked correctly",
+    "solutionEN": "Railroads should always be locked at level 2",
+    "template": "${typeRank}:${lock}",
+    "regexp": "/^2:[^(2|3|4|5|6)]/"
+  },
+  "138.title.en": "Incorrect Railroad Lock",
+  "138.title": "Chybějící zámek na železnici",
+  "138.problem.en": "The  Railroad Lock is not locked correctly",
+  "138.problem": "Segment železnice by měl být uzamčen alespoň na úroveň 2",
+  "138.solution.en": "Railroads should always be locked at level 2",
+  "138.solution": "Uzamkněte segment",
+  "139.enabled": false,
+  "139.severity": "warning",
+  "139.solutionLink": "W:Czech/Co_zakreslit_a_co_ne#.C5.BDeleznice",
+  "139.params": {
+    "titleEN": "Incorrect Railroad Name",
+    "problemEN": "The railroad should not be blank for default",
+    "solutionEN": "In the address properties change the street name to 'Railroad' or the owner of the railroad.",
+    "template": "${typeRank}:${street}",
+    "link":"test",
+    "regexp": "/^2:$/"
+  },
+  "139.title.en": "Incorrect Railroad Name",
+  "139.title": "Chybějící název železnice",
+  "139.problem.en": "The railroad should not be blank for default",
+  "139.problem": "Název železnice nesmí být prázdný",
+  "139.solution.en": "In the address properties change the street name to 'Railroad' or the owner of the railroad.",
+  "139.solution": "V nastavení adresy změň název ulice na jednu z možností (xxx = číslo tratě): 'Železnice', 'Železnice xxx', 'Železnice xxx/xxx', 'žel. vlečka' nebo 'žel. vlečka Název'",
   "150.enabled": true,
   "150.params": {
     "n": 4
@@ -947,6 +997,21 @@ window.WME_Validator_Czech_Republic = {
   "154.problem": "Silnice III. třídy by měla být uzamčena alespoň na úroveň ${n}",
   "154.solution.en": "Lock the segment",
   "154.solution": "Uzamkněte segment",
+  "167.enabled": false,
+  "167.solutionLink": "W:Czech/Co_zakreslit_a_co_ne#.C5.BDeleznice",
+  "167.severity": "warning",
+  "167.params": {
+    "titleEN": "Incorrect Railroad Name",
+    "problemEN": "The railroad is not named correctly",
+    "solutionEN": "Railroads must contain the owner company name or 'Railroad'",
+    "regexp": "!/^(Železnice|Železnice [0-9]{3}|Železnice [0-9]{3}(/[0-9]{3}){0,9}|žel\. vlečka|žel\. vlečka .+)$/",
+    },
+  "167.title.en": "Incorrect Railroad Name",
+  "167.title": "Nesprávný název železnice",
+  "167.problem.en": "The railroad is not named correctly",
+  "167.problem": "Název železnice není správný",
+  "167.solution.en": "Railroads must contain the owner company name or 'Railroad'",
+  "167.solution": "V nastavení adresy změň název ulice na jednu z možností (xxx = číslo tratě): 'Železnice', 'Železnice xxx', 'Železnice xxx/xxx', 'žel. vlečka' nebo 'žel. vlečka Název'",
   "170.enabled": true,
   "170.params": {
     "regexp": "/^(?!(alej|bratranců|bratří|bří|dr\\.|gen\\.|generála|kapitána|kpt\\.|krále|majora|mjr\\.|most|nábř\\.|nábřeží|nám\\.|náměstí|park|plk\\.|plukovníka|podplukovníka|por\\.|poručíka|pplk\\.|prap\\.|praporčíka|prof\\.|promenáda|sad|sady|sídl\\.|sídliště|tř\\.|třída|tunel|ul\\.|ulice|zahrada) [^a-z])[a-z]/"
